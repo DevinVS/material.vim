@@ -51,25 +51,25 @@ endfun
 
 " Default colors
 set background=dark
-let s:bg = { 'gui': '#263238', 'cterm': 'none' }
-let s:fg = { 'gui': '#eeffff', 'cterm': 231 }
+let s:bg = { 'gui': '#1a1a1a', 'cterm': 'none' }
+let s:fg = { 'gui': '#f2f2f2', 'cterm': 231 }
 let s:invisibles = { 'gui': '#65738e', 'cterm': 66 }
 let s:comments = { 'gui': '#546e7a', 'cterm': 145 }
-let s:caret = { 'gui': '#ffcc00', 'cterm': 220 }
+let s:caret = { 'gui': '#f0cb74', 'cterm': 220 }
 let s:selection = { 'gui': '#2c3b41', 'cterm': 239 }
 let s:guides = { 'gui': '#37474f', 'cterm': 17 }
 let s:line_numbers = { 'gui': '#37474f', 'cterm': 145 }
-let s:line_highlight = { 'gui': '#1a2327', 'cterm': 235 }
+let s:line_highlight = { 'gui': '#000000', 'cterm': 235 }
 let s:white = { 'gui': '#ffffff', 'cterm': 231 }
 let s:black = { 'gui': '#000000', 'cterm': 232 }
-let s:red = { 'gui': '#ff5370', 'cterm': 203 }
-let s:orange = { 'gui': '#f78c6c', 'cterm': 209 }
-let s:yellow = { 'gui': '#ffcb6b', 'cterm': 11 }
-let s:green = { 'gui': '#c3e88d', 'cterm': 2 } " 186 –– almost perfect match
-let s:cyan = { 'gui': '#89ddff', 'cterm': 117 }
-let s:blue = { 'gui': '#82aaff', 'cterm': 111 }
+let s:red = { 'gui': '#f35656', 'cterm': 203 }
+let s:orange = { 'gui': '#de8b50', 'cterm': 209 }
+let s:yellow = { 'gui': '#f0cb74', 'cterm': 11 }
+let s:green = { 'gui': '#83bd68', 'cterm': 2 } " 186 –– almost perfect match
+let s:cyan = { 'gui': '#72c2c4', 'cterm': 117 }
+let s:blue = { 'gui': '#689ef3', 'cterm': 111 }
 let s:paleblue = { 'gui': '#b2ccd6', 'cterm': 152 }
-let s:purple = { 'gui': '#c792ea', 'cterm': 176 }
+let s:purple = { 'gui': '#a56cc4', 'cterm': 176 }
 let s:brown = { 'gui': '#c17e70', 'cterm': 137 }
 let s:pink = { 'gui': '#f07178', 'cterm': 204 }
 let s:violet = { 'gui': '#bb80b3', 'cterm': 139 }
