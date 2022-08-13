@@ -538,6 +538,13 @@ call s:SetHighlight('CocWarningSign', s:orange, '', '')
 call s:SetHighlight('CocHintSign', s:yellow, '', '')
 call s:SetHighlight('CocInfoSign', s:green, '', '')
 
+" LSP Diagnostic Crap
+call s:SetHighlight('DiagnosticError', s:red, '', '')
+call s:SetHighlight('DiagnosticWarn', s:orange, '', '')
+call s:SetHighlight('DiagnosticInfo', s:cyan, '', '')
+call s:SetHighlight('DiagnosticHint', s:white, '', '')
+
+
 " Neovim terminal colors
 if has('nvim')
   let g:terminal_color_background = s:bg.gui
